@@ -1,0 +1,55 @@
+html,body{
+    font-size: 16px;
+    height: 100%;
+    margin: 0;
+    color: #666;
+    font-weight: 400;
+    font-family: "lato", sans-serif;
+    line-height: 1.8em;
+}
+.pimg1{
+    background-image: url(./images/1293389.jpg);
+    min-height: 100%; 
+}
+.pimg2{
+    background-image: url(./images/2732545.jpg);
+    min-height: 400px;
+}
+.pimg3{
+    background-image: url(./images/wp12670499-the-batman-4k-pc-wallpapers.jpg);
+    min-height: 400px;
+}
+.pimg1,.pimg2,.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+.textbg{
+    color: white;
+    padding: 20px;
+    background: #313534;
+}
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+.section_light{
+    background-color: #f4f4f4;
+    color: #666;
+}
+.section_dark{
+    background-color: #282e34;
+    color: #ddd;
+}
